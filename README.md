@@ -13,7 +13,8 @@ Here, we used a Object-Orientated approach.
 "Play.java" uses a BFS to carry out a brute-force search to find the path.
 
 Peudocode:
-//BFS Pseudocode
+
+	//BFS Pseudocode
 		// 1. Root check End 
 		// 2. Mark, Push
 		
