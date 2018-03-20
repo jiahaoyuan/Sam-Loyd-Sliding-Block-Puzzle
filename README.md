@@ -12,3 +12,23 @@ Here, we used a Object-Orientated approach.
 
 "Play.java" uses a BFS to carry out a brute-force search to find the path.
 
+Peudocode:
+//BFS Pseudocode
+		// 1. Root check End 
+		// 2. Mark, Push
+		
+		// 3. While (!current.isEnd())
+			// 3.0 "Current" = front of the list
+			// 3.1 Check Marked (while loop until (!marked))
+			// 3.2 (Abort)
+			// 3.3 Mark 
+			// 3.4 Get Children, Push
+		// End Found
+		
+		// Get Parent Pseudocode
+		// while (temp.parent!=start)
+		// 1. "temp" = end found
+		// 2. search temp.parent and compares wth childrens in "explored"
+		// 3. update temp
+		// 4. print children
+		// when start is found, print start
